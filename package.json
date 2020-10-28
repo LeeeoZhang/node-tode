@@ -1,0 +1,22 @@
+{
+  "name": "leo-node-todo",
+  "bin": {
+    "todo": "./cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "0.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
